@@ -25,20 +25,20 @@ Follow these steps to get your development environment set up:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/CarVision.git```
+   git clone https://github.com/<your-username>/CarVision.git
 2. Navigate to the project directory:
     ```bash
-    cd CarVision```
+    cd CarVision
 3. Install the Python dependencies:
     ```bash
-    pip install -r requirements.txt```
+    pip install -r requirements.txt
 4. Install npm packages and build Tailwind CSS:
     ```bash
     npm install
-    npm run build```
+    npm run build
 5. Start the Flask application:
     ```bash
-    python run.py```
+    python run.py
 
 Now, you can visit http://localhost:5000 in your web browser to see the application.
 
