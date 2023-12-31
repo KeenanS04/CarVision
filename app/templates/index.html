@@ -1,16 +1,22 @@
-<!-- templates/index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Car Vision</title>
-    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/cropperjs@1.5.12/dist/cropper.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/cropperjs@1.5.12/dist/cropper.min.js"></script>
 </head>
 <body>
-    <h1>Welcome to Car Vision</h1>
-    <form action="{{ url_for('main.results') }}" method="post" enctype="multipart/form-data">
-        <input type="file" name="car_image" required>
-        <button type="submit">Upload and Predict</button>
-    </form>
+    <form id="uploadForm" method="POST" action="{{ url_for('main.results') }}" enctype="multipart/form-data">
+        <input type="file" id="imageInput" name="image" accept="image/*">
+        <img id="image" style="max-width: 100%; display: none;">
+        <input type="hidden" id="cropX" name="cropX">
+        <input type="hidden" id="cropY" name="cropY">
+        <input type="hidden" id="cropWidth" name="cropWidth">
+        <input type="hidden" id="cropHeight" name="cropHeight">
+        <button type="submit">Upload</button>
+    </form>    
+
+    <script src="{{ url_for('static', filename='js/cropper-setup.js') }}"></script>
 </body>
 </html>
