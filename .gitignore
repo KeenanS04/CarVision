@@ -44,3 +44,12 @@ Thumbs.db
 # Database files
 *.sqlite3
 *.db
+
+# Node modules and npm debug logs
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Tailwind CSS Build Output
+# (Uncomment if you're not checking in your Tailwind build)
+# app/static/css/style.css
