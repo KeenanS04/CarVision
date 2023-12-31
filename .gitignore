@@ -53,3 +53,6 @@ Thumbs.db
 
 # Flask file uploads (if you store them locally, you might want to ignore them)
 /uploads/
+
+# Tests
+tests/
