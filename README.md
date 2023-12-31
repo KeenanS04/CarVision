@@ -42,7 +42,7 @@ Follow these steps to get your development environment set up:
 
 Now, you can visit http://localhost:5000 in your web browser to see the application.
 
-Built With
-Flask - The web framework used.
-Tailwind CSS - The CSS framework used.
+Built With \
+Flask - The web framework used. \
+Tailwind CSS - The CSS framework used. \
 TensorFlow - ML library used for car model predictions.
