@@ -60,10 +60,10 @@ Thumbs.db
 /tests/
 
 # PostCSS configuration
-postcss.config.js
+# postcss.config.js
 
 # Tailwind configuration
-tailwind.config.js
+# tailwind.config.js
 
 # Package lock files (commit to ensure consistent installations across environments)
 package-lock.json
