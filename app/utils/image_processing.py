@@ -11,7 +11,7 @@ def preprocess_image(image_path):
         new_size = tuple([int(x * ratio) for x in old_size])
 
         # Resize the image to fit within 224x224, maintaining aspect ratio
-        img = img.resize(new_size, Image.Resampling.LANCZOS)  # Updated resampling method
+        img = img.resize(new_size, Image.Resampling.LANCZOS)
 
         # Create a new image with white background and paste the resized image
         new_img = Image.new("RGB", (desired_size, desired_size), (255, 255, 255))

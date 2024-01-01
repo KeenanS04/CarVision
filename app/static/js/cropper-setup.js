@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     cropper.destroy();
                 }
                 cropper = new Cropper(image, {
-                    aspectRatio: 16 / 9,
                     crop(event) {
                         document.getElementById('cropX').value = event.detail.x;
                         document.getElementById('cropY').value = event.detail.y;
@@ -27,6 +26,4 @@ document.addEventListener('DOMContentLoaded', function () {
             reader.readAsDataURL(files[0]);
         }
     });
-
-    // You can also add event listener to form submission if needed
 });

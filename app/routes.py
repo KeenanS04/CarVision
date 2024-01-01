@@ -1,6 +1,5 @@
 from flask import Blueprint, render_template, request, redirect, url_for
 from werkzeug.utils import secure_filename
-from PIL import Image
 import os
 from .utils import image_processing
 import numpy as np
