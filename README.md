@@ -25,7 +25,7 @@ Follow these steps to get your development environment set up:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/CarVision.git
+   git clone https://github.com/KeenanS04/CarVision.git
 2. Navigate to the project directory:
     ```bash
     cd CarVision
