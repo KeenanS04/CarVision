@@ -33,7 +33,7 @@ Before you begin, ensure you have the following installed:
 
 3. **Set Up a Python Virtual Environment (Optional)**
     ```bash
-    python -m venv venv
+    python -m venv car_vision
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
 
