@@ -46,3 +46,5 @@ Built With \
 Flask - The web framework used. \
 Tailwind CSS - The CSS framework used. \
 TensorFlow - ML library used for car model predictions.
+
+* Please note that the model is still in development, accuracy is expected to improve over time! *
