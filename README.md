@@ -6,7 +6,7 @@ CarVision is a web application that allows users to upload images of cars and us
 
 - **Image Upload**: Users can upload images of cars for analysis.
 - **Image Cropping**: Users have the option to crop the image to focus on the car.
-- **Model Prediction**: The application predicts the car model using a pre-trained TensorFlow model and displays the predictions.
+- **Model Prediction**: The application predicts the car model using a fine-tuned TensorFlow model and displays the predictions.
 
 ## Getting Started
 
