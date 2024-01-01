@@ -34,7 +34,7 @@ Before you begin, ensure you have the following installed:
 3. **Set Up a Python Virtual Environment (Optional)**
     ```bash
     python -m venv car_vision
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    source car_vision/bin/activate  # On Windows use `car_vision\Scripts\activate`
     ```
 
 4. **Install Python Dependencies**
