@@ -52,7 +52,7 @@ def results():
 
     # Secure the filename and save the uploaded file
     filename = secure_filename(file.filename)
-    file_path = os.path.join('uploads', filename)
+    file_path = os.path.join(filename)
     file.save(file_path)
 
     # Process the image
